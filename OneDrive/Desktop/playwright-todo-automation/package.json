@@ -1,0 +1,20 @@
+{
+  "name": "playwright-todo-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {  "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "linkedin:login": "playwright test tests/linkedin-login.spec.js --headed",
+    "linkedin:jobs": "playwright test tests/linkedin-jobs.spec.js --headed"},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6"
+  }
+}
